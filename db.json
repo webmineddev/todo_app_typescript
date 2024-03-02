@@ -1,0 +1,32 @@
+{
+    "data":[
+        {
+            "employee_name":"john",
+            "empl0yee_age":"23",
+            "employee_email":"jhon@yopmail.com",
+            "employee_phone":"2345678912",
+            "id":"1001"
+        },
+        {
+            "employee_name":"lee",
+            "empl0yee_age":"25",
+            "employee_email":"lee@yopmail.com",
+            "employee_phone":"2345678912",
+            "id":"1002"
+        },
+        {
+            "employee_name":"kien",
+            "empl0yee_age":"27",
+            "employee_email":"kien@yopmail.com",
+            "employee_phone":"2345678912",
+            "id":"1003"
+        },
+        {
+            "employee_name":"stepthen",
+            "empl0yee_age":"29",
+            "employee_email":"stepthen@yopmail.com",
+            "employee_phone":"2345678912",
+            "id":"1004"
+        }
+    ]
+}
