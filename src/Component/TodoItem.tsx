@@ -30,12 +30,15 @@ const handleEdit=(todo)=>{
         <tbody>
           <tr>
             <td className="py-2 px-4 text-center border-b">{todo.title}</td>
-            <td className="py-2 text-center px-4 border-b">{todo.bio}</td>
+            <td className="py-2 text-center px-4 border-b"> <div className='overflow:hidden'>{todo.bio} </div></td>
             <td className="py-2 text-center px-4 border-b">
-               
-                <FaTrash  className="text-red-500 inline-block cursor-pointer" onClick={()=>handleDelete(todo.id)} />
+              <div className='flex overflow:hidden justify-between'> 
+              <FaTrash  className="text-red-500 inline-block cursor-pointer" onClick={()=>handleDelete(todo.id)} />
                 
                 <FaEdit  className="text-blue-500 inline-block cursor-pointer ml-10" onClick={()=>handleEdit(todo)} />
+              </div>
+               
+              
             </td>
 
          
